@@ -46,7 +46,7 @@ A data loader specifically refers to an object that encapsulates the training, v
 Train the model using Fastai by running the CNN learner script. This script defines the Image Data Loaders, creates a learner with a pre-trained ResNet152 model, and fine-tunes it.
 
 ### Making Predictions
-To make predictions on the test set, use the `predict_test.py` script. This script will load the trained model and generate predictions for the test images.
+To make predictions on the test set, use the `get_preds()` method of CNN learner. This function will load the trained model and generate predictions for the test images.
 
 ## Model Comparison
 The accuracy of different models used in this project:
